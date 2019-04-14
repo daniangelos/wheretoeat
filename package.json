@@ -1,0 +1,31 @@
+{
+  "name": "wheretoeat",
+  "version": "1.0.0",
+  "description": "A Telegram Bot to log and rate restaurants where I've been",
+  "main": "node dist/index.js",
+  "scripts": {
+    "start": "nodemon dist/index.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniangelos/wheretoeat.git"
+  },
+  "author": "Daniella Angelos and Pedro Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniangelos/wheretoeat/issues"
+  },
+  "homepage": "https://github.com/daniangelos/wheretoeat#readme",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^11.13.4",
+    "dotenv": "^7.0.0",
+    "nodemon": "^1.18.11",
+    "telegraf": "^3.29.0",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {}
+}
